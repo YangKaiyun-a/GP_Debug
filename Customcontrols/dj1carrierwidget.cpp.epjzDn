@@ -1,0 +1,37 @@
+#include "dj1carrierwidget.h"
+#include "ui_dj1carrierwidget.h"
+
+DJ1CarrierWidget::DJ1CarrierWidget(Storage_Info storageInfo, QWidget *parent)
+    : QWidget(parent)
+    , ui(new Ui::DJ1CarrierWidget), m_storageInfo(storageInfo)
+{
+    ui->setupUi(this);
+    init();
+}
+
+DJ1CarrierWidget::~DJ1CarrierWidget()
+{
+    delete ui;
+}
+
+void DJ1CarrierWidget::init()
+{
+    initStyleSheet();
+    initData();
+    initUI();
+}
+
+void DJ1CarrierWidget::initStyleSheet()
+{
+    ui->label_16->setObjectName("labModuleAction");
+}
+
+void DJ1CarrierWidget::initData()
+{
+
+}
+
+void DJ1CarrierWidget::initUI()
+{
+    ui->label_2->setText(m_storageInfo.rack_name);
+}

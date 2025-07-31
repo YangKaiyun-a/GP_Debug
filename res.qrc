@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/logo_hcsci.png</file>
+        <file>winJk.qss</file>
+        <file>image/u0.png</file>
+    </qresource>
+</RCC>

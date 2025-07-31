@@ -1,0 +1,438 @@
+/*************************************所有字体样式***********************************/
+*
+{
+    font: normal normal 14px "Microsoft YaHei";
+    color:#FFFFFF;
+}
+
+/*************************************所有QComboBox字体样式***********************************/
+QComboBox, QComboBox QAbstractItemView
+{
+    font: normal normal 14px "Microsoft YaHei";
+    color: #000000;
+    selection-color: #000000;
+}
+
+
+/*************************************基本按钮样式***********************************/
+QPushButton
+{
+    border-radius: 4px;
+    color: #646464;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DFDFDF, stop:1 #B2B2B2);
+}
+
+QPushButton:hover
+{
+    border-radius: 4px;
+    border: 0;
+    color:#ffffff;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+                                                                        stop:0 #00AEAE,
+                                                                        stop:1 #006C6C);
+}
+
+QPushButton:pressed
+{
+    border-radius: 4px;
+    border: 0;
+    color:#ffffff;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+                                                                        stop:0 #008787,
+                                                                        stop:1 #007373);
+}
+
+/*************************************所有QLineEdit样式***********************************/
+QLineEdit
+{
+    font: normal normal 14px "Microsoft YaHei";
+    color: #646464;
+}
+
+/*************************************所有QDoubleSpinBox样式***********************************/
+QDoubleSpinBox,QSpinBox
+{
+    font: normal normal 14px "Microsoft YaHei";
+    color: #646464;
+}
+
+/*************************************线***********************************/
+#blackLine
+{
+    border-top: 1px solid;
+    border-color: #020303;
+}
+
+#blueDashLine
+{
+    border-top: 1.5px dashed;
+    border-color: #0AEEEE;
+}
+
+#whiteDashLine
+{
+    border-top: 1.5px dashed;
+    border-color: #949595;
+}
+
+/*************************************动作描述QLabel***********************************/
+QLabel#labModuleAction
+{
+    font-size: 15pt;
+    color: #2299aa;
+}
+
+QLabel#labModuleDataAction
+{
+    font-size: 13pt;
+    color: #2299aa;
+}
+
+QLabel#labK, QLabel#labB
+{
+    color: #e3e3e3;
+    background-color: #00b4c7;
+    border: none;
+}
+
+/*************************************初始页面背景图***************************************/
+#MainWindow
+{
+    border-image: url(:/image/u0.png);
+}
+
+/*************************************左侧菜单栏样式***************************************/
+#leftBarWidget QPushButton
+{
+    color: white;
+    background-color: #333333;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 20px;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+}
+
+#leftBarWidget QPushButton:hover
+{
+    background-color: #555555;
+}
+
+#leftBarWidget QPushButton:pressed
+{
+    background-color: #222222;
+}
+
+#leftBarWidget QPushButton:checked
+{
+    background-color: #181c1c;
+}
+
+#leftBarWidget
+{
+    background-color: #252b2b;d
+}
+
+/*************************************模块调试主背景图***************************************/
+#contentWidget
+{
+    background-color: #181c1c;
+}
+
+/*************************************热封模块主背景图***************************************/
+#moduleWidget, #moduleStackedWidget, #buttonNumberWidget, #shakerStackedWidget
+{
+    background-color: #2f3538;
+    border: 1px solid #020303;
+}
+
+/*************************************热封模块大按钮图***************************************/
+#buttonNumberWidget QPushButton
+{
+   background-color: #383c3c;
+   border: 1px solid #020303;
+   color: #454b4c;
+   font-family: Arial;
+   font-size: 40pt;
+}
+
+#buttonNumberWidget QPushButton:hover
+{
+    background-color: #252b2b;
+}
+
+#buttonNumberWidget QPushButton:checked
+{
+    background-color: #1b8795;
+    color: #94eef4
+}
+
+/*************************************热封模块参数页面背景***************************************/
+#upWidget
+{
+    background-color: #303233;
+    border-radius: 4px;
+    border: 1px solid #020303;
+}
+
+#downWidget
+{
+    background-color: #303233;
+    border-radius: 4px;
+    border: 1px solid #020303;
+}
+
+#downModuleContentWidget
+{
+    background-color: #303233;
+    border-radius: 4px;
+    border: 1px solid #020303;
+}
+
+/*************************************PCR模块功能按钮***************************************/
+QPushButton#btnPCRModuleFuction
+{
+    border-radius: 1px;
+    color: #0b0b0b;
+    border: 1px solid #020303;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #bababa, stop:1 #818181);
+}
+
+QPushButton#btnPCRModuleFuction:hover
+{
+    color:#039ba8;
+    background-color: #242424;
+}
+
+QPushButton#btnPCRModuleFuction:checked
+{
+    border-top: 2px solid #00a4b2;
+    border-right: 1px solid #020303;
+    border-left: 1px solid #020303;
+    border-bottom: 0px;
+    color: #039ba8;
+    background-color: #242424;
+}
+
+/*************************************PCR模块中M1、M2按钮***************************************/
+QPushButton#btnPCRM1M2
+{
+    border-radius: 1px;
+    color: #5d5d69;
+    border: 1px solid #020303;
+    background-color: #a6a6a6;
+}
+
+QPushButton#btnPCRM1M2:hover
+{
+    background-color: #303233;
+}
+
+QPushButton#btnPCRM1M2:checked
+{
+    color: #14949f;
+    background-color: #303233;
+
+    border-top: 1px solid #020303;
+    border-right: 0px;
+    border-left: 1px solid #020303;
+    border-bottom: 1px solid #020303;
+}
+
+/*************************************PCR模块中M1、M2栈页的背景***************************************/
+QStackedWidget#m1m2StackedWidget
+{
+    background-color: #303233;
+    border-radius: 4px;
+    border: 1px solid #020303;
+}
+
+#scrollAreaWidgetContents
+{
+    background-color: #303233;
+    border-radius: 4px;
+}
+
+/*************************************QScrollArea样式***************************************/
+QScrollArea
+{
+    background: #303233; /* 设定滚动区域的背景颜色 */
+}
+
+/* 移除滚动条整体样式 */
+QScrollBar:vertical
+{
+    border: none; /* 移除边框 */
+    background: transparent; /* 设定滚动条背景颜色 */
+    width: 10px; /* 设定滚动条宽度 */
+    margin: 0px 0px 0px 0px; /* 移除滚动条和滚动区域之间的间隙 */
+}
+
+/* 移除滚动条滑块样式 */
+QScrollBar::handle:vertical
+{
+    background: #424242; /* 设定滑块的背景颜色 */
+    min-height: 50px; /* 设定滑块的最小高度 */
+    border-radius: 5px; /* 设定滑块的圆角 */
+    border: 1px solid #bebebe;
+}
+
+/* 移除滚动条上下的按钮 */
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical
+{
+    border: none;
+    background: none;
+    height: 0px;
+}
+
+/* 移除滚动条上下按钮的箭头 */
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+{
+    width: 0px;
+    height: 0px;
+    background: none;
+}
+
+/* 在滚动条滑块上面和下面的空间中不显示任何东西 */
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+    background: none;
+}
+
+/*************************************光学校准***************************************/
+#upChannelWidget, #downChannelWidget
+{
+    background-color: #5d5d5d;
+    border: 1px solid #010101;
+}
+
+#btnChannel
+{
+    background-color: #d2d2d2;
+    border-radius: 10px;
+    border: 1px solid #010101;
+}
+
+#btnChannel:hover
+{
+    background-color: #56cfd9;
+}
+
+#btnChannel:checked
+{
+    color: #f6fdfd;
+    background-color: #0dbbc9;
+}
+
+/* 蓝底白字QLabel */
+QLabel#labBule
+{
+    color: #e2f6f9;
+    background-color: #00b4c7;
+}
+
+
+/*********************************弹窗样式**********************************************/
+OptionDialog,MessageDialog,CalibrationDialog
+{
+    border-radius: 4px;
+    border: 1px solid #D7D7D7;
+    background-color:rgb(106,106,106);
+}
+
+OptionDialog QWidget#TitleWidget,MessageDialog QWidget#TitleWidget,CalibrationDialog QWidget#TitleWidget
+{
+    border-top-left-radius : 4px;
+    border-top-right-radius : 4px;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+                                                                        stop:0 rgb(107,107,107),
+                                                                        stop:1 rgb(94,94,94));
+}
+
+OptionDialog QWidget#ContentWidget,MessageDialog QWidget#ContentWidget,CalibrationDialog QWidget#ContentWidget,#CalibrationWidget
+{
+    border-bottom-left-radius : 4px;
+    border-bottom-right-radius : 4px;
+    background-color:rgb(106,106,106);
+}
+
+OptionDialog QLabel,MessageDialog QLabel,CalibrationDialog QLabel
+{
+    font: normal normal 18px "Noto Sans S Chinese Medium";
+    color: #D7D7D7;
+}
+
+
+/*********************************QTableWidget*********************************/
+QTableWidget#tableWidget
+{
+    alternate-background-color: #c7d6d7;
+    background: #d9d9d9;
+    gridline-color: #797979;
+    color: black;
+}
+
+QHeaderView::section:horizontal
+{
+    background-color: #4e6364;
+    border: 1px solid #26292a;
+    padding: 4px;
+}
+
+
+
+
+/*********************************位置较准-板位按钮*********************************/
+QPushButton#btnPosition
+{
+    background: #626262;
+    border: 1px solid #000000;
+}
+
+QPushButton#btnPosition:hover
+{
+    background: #626262;
+    border: 1px solid #167f87;
+}
+
+QPushButton#btnPosition:checked
+{
+    background: #4a4a4a;
+    border: 1px solid #167f87;
+}
+
+QPushButton#btnCirclePosition
+{
+    background-color: #626262;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+QPushButton#btnCirclePosition:hover
+{
+    background: #626262;
+    border: 1px solid #167f87;
+}
+
+QPushButton#btnCirclePosition:checked
+{
+    background: #4a4a4a;
+    border: 1px solid #167f87;
+}
+
+
+/*********************************位置较准-板位按钮所处QWidget样式*********************************/
+QWidget#carrierWidget
+{
+    background: #212121;
+    border: 1px solid #111111;
+}
+
+/*********************************位置较准-步骤框QWidget样式*********************************/
+QWidget#stepsWidget
+{
+    background: #303233;
+    border: 1px solid #111111;
+}
